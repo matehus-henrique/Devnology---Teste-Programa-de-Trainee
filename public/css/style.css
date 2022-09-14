@@ -1,0 +1,250 @@
+/*General*/
+
+*{
+    font-family: 'Roboto';
+}
+
+
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-primary{
+    background-color: rgb(12, 90, 206);
+    border: 2px solid rgb(143, 172, 216);
+}
+
+.btn-primary:hover{
+    background-color: rgb(12, 90, 206);
+    border-color: rgb(143, 172, 216);
+
+}
+
+.msg {
+    background-color: rgb(15, 184, 80);
+    color: forestgreen;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*navbar*/
+
+
+
+#navbar img{
+    width: 70px;
+}
+
+#navbar{
+    justify-content: space-between ;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+
+#navbar a{
+    /*mouse*/
+    font-size: 14px;
+    color: rgb(32, 12, 207);
+}
+
+#navbar a:hover{
+    /*mouse*/
+    font-size: 14px;
+    color: coral;
+}
+
+/*Search Container*/
+
+#search-container{
+    background-image: url("../img/tes.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: coral;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/*events list*/
+
+#events-container{
+    padding: 50px;
+}
+
+#events-container h2 {
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle{
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container{
+display: flex;
+}
+
+#events-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+#events-container img{
+    max-height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-preco{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/**/
+
+#event-create-container{
+    padding: 30px;
+}
+
+#event-create-contarner label {
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+    font-size: 12px;
+}
+
+/*pagina do produto*/
+
+#image-container,
+#info-container{
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: dodgerblue;
+    margin-right: 5px;
+}
+
+#info-container #event-submit {
+    margin: 20px 0;
+}
+
+#items-list {
+list-style: none;
+padding-left: 0;
+
+}
+
+#items-list li{
+    display: flex;
+}
+
+/*dashboard*/
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-cantainer th{
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+
+/*Edit page*/
+
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-color:#27354f;
+    color:#ffff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
